@@ -41,23 +41,23 @@ The application uses Async Storage to ensure that entries remain saved even afte
 
 The mobile application includes three primary screens:
 
--Home Screen
-The Home screen allows users to log a new mood entry and optionally record a note. This screen also provides navigation to the Dashboard and Settings screens.
+-Home Screen:
+allows users to log a new mood entry and optionally record a note. This screen also provides navigation to the Dashboard and Settings screens.
 
--Dashboard Screen
-The Dashboard displays all saved mood and habit entries. Users can review their previous logs and delete entries when necessary.
+-Dashboard Screen:
+displays all saved mood and habit entries. Users can review their previous logs and delete entries when necessary.
 
--Settings Screen
-The Settings screen allows users to manage stored data, including clearing all saved entries.
+-Settings Screen:
+allows users to manage stored data, including clearing all saved entries.
 
--Navigation Layer
-The navigation layer manages the movement between different screens within the application. The system uses the React Navigation library to enable users to transition between the Home, Dashboard, and Settings screens. This navigation structure organizes the application interface and provides a consistent user experience, improving usability and simplifying interaction with the system.
+-Navigation Layer:
+manages the movement between different screens within the application. The system uses the React Navigation library to enable users to transition between the Home, Dashboard, and Settings screens. This navigation structure organizes the application interface and provides a consistent user experience, improving usability and simplifying interaction with the system.
 
--Application Logic Layer
-The application logic layer manages state and handles operations such as adding, updating, and deleting entries. It also coordinates interactions between the user interface and the data storage layer, ensuring that all operations update the UI and persist data correctly.
+-Application Logic Layer:
+manages state and handles operations such as adding, updating, and deleting entries. It also coordinates interactions between the user interface and the data storage layer, ensuring that all operations update the UI and persist data correctly.
 
--Data Storage Layer
-The data storage layer is responsible for saving and retrieving user data generated within the application. Mood entries, habit tracking information, and user preferences are stored locally using Async Storage. Local storage enables the application to retain data even after the application has been closed and reopened, ensuring that user information persists across sessions without requiring external databases or internet connectivity.
+-Data Storage Layer:
+responsible for saving and retrieving user data generated within the application. Mood entries, habit tracking information, and user preferences are stored locally using Async Storage. Local storage enables the application to retain data even after the application has been closed and reopened, ensuring that user information persists across sessions without requiring external databases or internet connectivity.
 
 ---
 
