@@ -1,4 +1,4 @@
-## Mood and Habit Tracker Mobile App ## - Developed as part of a React Native mobile development course project
+## Mood and Habit Tracker Mobile App - Developed as part of a React Native mobile development course project
 
 # Overview
 
