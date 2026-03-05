@@ -1,0 +1,34 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/145.0.0.0 Safari/537.36" version="29.6.1">
+  <diagram name="Page-1" id="N_TSe31fo6sbq7aI3a4n">
+    <mxGraphModel dx="1135" dy="586" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="230" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&amp;nbsp;User Interface&amp;nbsp;&lt;br&gt;&amp;nbsp;Home | Dashboard | Settings" vertex="1">
+          <mxGeometry height="45" width="227.5" x="120" y="137.5" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="230" x="120" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Navigation Layer&lt;div&gt;React Navigation&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="160" x="155" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="230" x="120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Application Logic / State Management&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="15" width="130" x="168.75" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="60" width="230" x="120" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="Thj8SWsYc3PcwL6IDgv5-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Data Storage Layer&amp;nbsp;&lt;div&gt;Async Storage&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="150" x="158.75" y="410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
