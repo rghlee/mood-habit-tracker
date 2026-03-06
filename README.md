@@ -48,7 +48,7 @@ allows users to log a new mood entry and optionally record a note. This screen a
 displays all saved mood and habit entries. Users can review their previous logs and delete entries when necessary.
 
 -Settings Screen:
-allows users to manage stored data, including clearing all saved entries.
+will allow users to personalize settings; currently under maintenance.
 
 -Navigation Layer:
 manages the movement between different screens within the application. The system uses the React Navigation library to enable users to transition between the Home, Dashboard, and Settings screens. This navigation structure organizes the application interface and provides a consistent user experience, improving usability and simplifying interaction with the system.
@@ -66,8 +66,8 @@ responsible for saving and retrieving user data generated within the application
 The application was developed using the following technologies:
 
 *React Native* – Cross-platform mobile application development framework
-*Expo* – Development environment for building React Native applications
-*React Navigation* – Library used to manage screen navigation
+*Expo & Expo Router* – Development environment for React Native apps; Expo Router handles navigation via file-based routing
+*React Navigation* – Navigation between screens used by Expo-Router
 *Async Storage* – Local storage system for persistent data management
 *JavaScript* – Programming language used to implement application logic
 
@@ -77,22 +77,26 @@ The application was developed using the following technologies:
 
 mood-habit-tracker
 │
-├── App.js
-├── package.json
-│
+├── app
+|   ├─ _layout.js
+|   ├─ dashboard.js
+|   ├─ index.tsx
+|   └─ settings.js
+|
+├── components
+│   ├─ MoodSelector.js
+│   └─ EntryItem.js
+|
 ├── screens
 │   ├─ HomeScreen.js
 │   ├─ DashboardScreen.js
 │   └─ SettingsScreen.js
 │
-├── components
-│   ├─ MoodSelector.js
-│   └─ EntryItem.js
-│
 ├── storage
 │   └─ storage.js
 │
-└── assets
+├── package.json
+└── App.js
 
 ---
 
@@ -102,7 +106,8 @@ mood-habit-tracker
 2. An optional note can be added to provide context for the mood entry.
 3. The entry is saved locally using Async Storage.
 4. The **Dashboard screen** retrieves and displays all stored entries.
-5. Users can delete entries or clear all data through the **Settings screen**.
+5. Users can delete entries or clear all data through the **Home screen**.
+6. Users will be able to personalize settings through **Settings screen**.
 
 ---
 
